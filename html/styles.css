@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: red;
+    background-color: aqua;
+}
+
+p{
+    font-size: 20px;
+
+    font-family: "Comic Sans MS";
+}
+
+span {
+    border: black solid 5px;
+
+    padding: 20px 10px;
+
+    margin: 50px;
+}
+
+ul{
+    padding-left: 0
+}
+
+ol{
+    list-style: upper-alpha;
+}
+
+table, td, th{
+    border: solid 1px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.link {
+    text-decoration: none;
+    font-family: sans-serif;
+
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+
+    transition: all 0.5s;
+}
+
+.link:hover {
+    background-color: blue;
+
+    color: white;
+}
+
+
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+
+
+    height: 50px;
+}

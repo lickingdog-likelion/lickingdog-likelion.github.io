@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    height: 48px;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-items li {
+    cursor: pointer;
+    margin: 0 auto;
+
+
+    text-align: center;
+
+    transition: all 0.2s;
+}
+
+.nav-items li:hover {
+    opacity: 0.8;
+    color: grey;
+}
+
+.logo {
+    font-size: 1.5em;
+}
